@@ -1,15 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import RestaurantItem from './src/components/RestaurantItem';
-import restaurant from './assets/data/restaurants.json'
+import restaurants from './assets/data/restaurants.json'
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <RestaurantItem title="restaurant 1"/>
-     <RestaurantItem title="restaurant 2"/>
-     <RestaurantItem title="restaurant 3"/>
+     <RestaurantItem restaurant={restaurants[0]}/>
+     <RestaurantItem restaurant={restaurants[1]}/>
+     <RestaurantItem restaurant={restaurants[2]}/>
     <StatusBar style="auto" />
     </View>
   );
