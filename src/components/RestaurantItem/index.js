@@ -1,16 +1,17 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-const RestaurantItem = (props) => {
-  console.log(props)
+const RestaurantItem = (restaurant) => {
+  console.log(restaurant)
   return (
     <View style={styles.restaurantContainer}>
       <Image 
         source={{
-          uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg',
+          uri: restaurant.image,
         }} 
         style={styles.image}/>
-      <Text style={styles.name}>{props.title}</Text>
-      <Text style={styles.name}>$1.99 15-30 minutes</Text>
+      <Text style={styles.title}>{restaurant.title}</Text>
+      <Text style={styles.subtitle}>${restaurant.deliveryFee}{restaurant.minDeliveryTime}-{restaurant.maxDeliveryTime}
+      </Text>
     </View>
   )
 }
