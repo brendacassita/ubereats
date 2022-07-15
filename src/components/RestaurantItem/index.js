@@ -1,7 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-const RestaurantItem = () =>{
+const RestaurantItem = () => {
   return (
     <View style={styles.restaurantContainer}>
       <Image 
@@ -9,14 +8,13 @@ const RestaurantItem = () =>{
           uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg',
         }} 
         style={styles.image}/>
-    
       <Text style={styles.name}>El Cabo Cafe Bar Tres De May</Text>
       <Text style={styles.name}>$1.99 15-30 minutes</Text>
-    
     </View>
-
   )
 }
+
+export default RestaurantItem
 
 const styles = StyleSheet.create({
   container: {
