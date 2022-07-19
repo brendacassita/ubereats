@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-const RestaurantItem = (restaurant) => {
+const RestaurantItem = ({restaurant}) => {
   console.log(restaurant)
   return (
     <View style={styles.restaurantContainer}>
@@ -9,7 +9,7 @@ const RestaurantItem = (restaurant) => {
           uri: restaurant.image,
         }} 
         style={styles.image}/>
-      <Text style={styles.title}>{restaurant.title}</Text>
+      <Text style={styles.title}>{restaurant.name}</Text>
       <Text style={styles.subtitle}>${restaurant.deliveryFee}{restaurant.minDeliveryTime}-{restaurant.maxDeliveryTime}
       </Text>
     </View>
