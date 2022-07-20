@@ -13,6 +13,7 @@ export default function App() {
      <FlatList 
       data={restaurants} 
       renderItem={({item}) => <RestaurantItem restaurant={item} /> }
+      showsVerticalScrollIndicator={false}
       />
     <StatusBar style="auto" />
     </View>
