@@ -27,5 +27,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 10,
+    paddingVertical: 30,// temporary fix
   },
 });
