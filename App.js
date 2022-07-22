@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
-import RestaurantItem from './src/components/RestaurantItem';
-import restaurants from './assets/data/restaurants.json'
+import { StyleSheet, View, Image } from 'react-native';
+import HomeScreen from './src/screens/HomeScreen/Index';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
- 
+      <HomeScreen />
     <StatusBar style="auto" />
     </View>
   );
