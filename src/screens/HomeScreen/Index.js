@@ -1,7 +1,6 @@
 
 import { StyleSheet, Image, FlatList } from 'react-native';
 import RestaurantItem from '../../components/RestaurantItem';
-
 import restaurants from '../../../restaurants.json'
 
 
