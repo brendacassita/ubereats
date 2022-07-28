@@ -11,7 +11,7 @@ export default function App() {
     <View style={styles.container}>
       <RestaurantDetailsScreen />
       {/* <HomeScreen /> */}
-    <StatusBar style="auto" />
+    <StatusBar style="light" />
     </View>
   );
 }
