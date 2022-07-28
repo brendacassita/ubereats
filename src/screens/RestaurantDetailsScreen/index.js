@@ -2,7 +2,7 @@ import {View, Text, Image, FlatList} from 'react-native'
 import restaurants from '../../../assets/data/restaurants.json'
 import {Ionicons} from "@expo/vector-icons"
 
-const restaurant = restaurant[0]
+const restaurant = restaurants[0]
 
 
 const RestaurantDetailsPage = () => {
