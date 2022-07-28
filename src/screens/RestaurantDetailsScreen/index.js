@@ -37,13 +37,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   iconContainer: {
-    backgroundColor: "white",
-    padding: 20,
     position: "absolute",
     top: 40,
     left: 10,
-    borderRadius: 50,
-  }
+  },
   image: {
     width: "100%",
     aspectRatio: 5/3,
