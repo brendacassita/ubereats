@@ -8,4 +8,6 @@ const DishListItem = () => {
   )
 }
 
+const styles = StyleSheet.create({})
+
 export default DishListItem 
