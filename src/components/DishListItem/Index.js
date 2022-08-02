@@ -1,9 +1,13 @@
 import {View, Text, StyleSheet, Image} from "react-native"
 
-const DishListItem = () => {
+const DishListItem = ({dish}) => {
   return (
     <View>
-      <Text>Title</Text>
+      <Text>{dish.name}</Text>
+      <Text>{dish.description}</Text>
+      <Text>{dish.price}</Text>
+
+
     </View>
   )
 }
