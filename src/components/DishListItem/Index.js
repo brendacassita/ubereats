@@ -14,11 +14,17 @@ const DishListItem = ({dish}) => {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 10,
+    padding: 10,
+    marginVertical: 10,
+    marginHorizontal: 10,
+    paddingVertical: 10,
+    borderBottomColor: "Lightgray",
+    borderBottomWidth: 1,
   },
   name: {
     fontWeight: "600",
     fontSize: 16,
+    letterSpacing: 0.5,
   },
   description: {
     color: "gray",
