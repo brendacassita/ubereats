@@ -8,7 +8,7 @@ const DishListItem = ({dish}) => {
       <Text style={styles.description} numberOfLines={2}>{dish.description}</Text>
       <Text style={styles.price}>${dish.price}</Text>
       </View>
-    <Image source={{uri: dish.image}} style={styles.image} />
+    {dish.image && <Image source={{uri: dish.image}} style={styles.image} />}
     </View>
   )
 }
