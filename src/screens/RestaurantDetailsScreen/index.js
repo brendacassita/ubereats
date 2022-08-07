@@ -34,10 +34,11 @@ const RestaurantDetailsPage = () => {
       <DishListItem dish={restaurant.dishes[2]}/> */}
 
       <FlatList data={restaurant.dishes}
-      renderItem={({item})=> <DishListItem dish={item}/>}
+      renderItem={({item})=> <DishListItem dish={item}/>} />
+      </View>
 
 
-    </View>
+    
   )
 }
 
