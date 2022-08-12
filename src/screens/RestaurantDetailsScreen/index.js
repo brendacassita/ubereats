@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import DishListItem from "../../components/DishListItem";
+
 import Header from "./Header";
 import styles from "./styles";
 import { useRoute, useNavigation } from "@react-navigation/native";

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { StyleSheet, FlatList, View } from "react-native";
 import RestaurantItem from "../../components/RestaurantItem";
-import { DataStore } from "aws-amplify";
-import { Restaurant } from "../../models";
+// import { DataStore } from "aws-amplify";
+// import { Restaurant } from "../../models";
 
 export default function HomeScreen() {
   const [restaurants, setRestaurants] = useState([]);
