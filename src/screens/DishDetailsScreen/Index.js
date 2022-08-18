@@ -11,6 +11,7 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import { DataStore } from "aws-amplify";
 import { Dish } from "../../models";
 import { useBasketContext } from "../../contexts/BasketContext";
+import restaurants from "../../../assets/data/restaurants.json"
 
 const DishDetailsScreen = () => {
   const [dish, setDish] = useState(null);

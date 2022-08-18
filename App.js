@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Image } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen/Index';
 import RestaurantDetailsScreen from './src/screens/RestaurantDetailsScreen';
+import DishDetailsScreen from './src/screens/DishDetailsScreen/Index';
 
 
 
@@ -11,6 +12,7 @@ export default function App() {
     <View style={styles.container}>
       <RestaurantDetailsScreen />
       {/* <HomeScreen /> */}
+      <DishDetailsScreen />
     <StatusBar style="light" />
     </View>
   );
