@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Image } from 'react-native';
-import HomeScreen from './src/screens/HomeScreen/Index';
+import HomeScreen from './src/screens/HomeScreen';
 import RestaurantDetailsScreen from './src/screens/RestaurantDetailsScreen';
-import DishDetailsScreen from './src/screens/DishDetailsScreen/Index';
+import DishDetailsScreen from './src/screens/DishDetailsScreen';
 
 
 
