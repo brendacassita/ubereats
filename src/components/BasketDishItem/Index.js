@@ -8,7 +8,7 @@ const BasketDishItem = ({ basketDish }) => {
         <Text>{basketDish.quantity}</Text>
       </View>
       <Text style={{ fontWeight: "600" }}>{basketDish.Dish.name}</Text>
-      <Text style={{ marginLeft: "auto" }}>$ {basketDish.Dish.price}</Text>
+      <Text style={{ marginLeft: "auto" }}>${basketDish.Dish.price}</Text>
     </View>
   );
 };
